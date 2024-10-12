@@ -1,5 +1,6 @@
 import React, { FC } from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const MainPage: FC<MainPageProps> = ({ Main }) => {
   /* const [isMobile, setIsMobile] = useState<boolean>(false);
@@ -24,6 +25,7 @@ const MainPage: FC<MainPageProps> = ({ Main }) => {
       <main>
         <Main />
       </main>
+      <Footer />
     </body>
   );
 };

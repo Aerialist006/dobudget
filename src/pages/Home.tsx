@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <Cards />
       <div className="px-6 lg:px-36 md:px-20">
-        <div className="md:px-12 lg:px-24 md:py-12 p-8 md:h-96 h-auto bg-gradient-to-br rounded-2xl from-stone-800 from-10%  via-emerald-700 via-70%  bg-emerald-400 flex gap-4 flex-col md:gap-10 md:flex-row md:justify-between">
+        <div className="md:px-12 lg:px-24 md:py-12 p-8 md:h-96 h-auto bg-gradient-to-t md:bg-gradient-to-br rounded-2xl from-emerald-900 md:from-stone-800 from-10%  via-emerald-700 via-70%  bg-emerald-400 flex gap-4 flex-col md:gap-10 md:flex-row md:justify-between">
           <div className="md:h-full flex md:items-start flex-col justify-center gap-4 text-neutral-100">
             <p className="font-semibold md:text-3xl text-3xl lg:text-5xl font-serif">
               Get in Touch with Us!

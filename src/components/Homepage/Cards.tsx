@@ -1,11 +1,11 @@
-import { ChartNoAxesCombined } from "lucide-react";
+
 
 const Cards = () => {
   return (
     <div className="lg:px-36 h-[80vh] flex-col md:px-20 px-6 flex lg:gap-10 gap-4 md:flex-col lg:flex-row w-full md:h-[42rem] md:max-h-[45rem] lg:h-[32rem] ">
       <div className="md:w-full flex lg:w-1/2 md:h-1/2 lg:h-full h-1/3 rounded-2xl px-12 items-lef justify-center md:py-20 bg-gradient-to-b from-emerald-400 to-emerald-600 text-stone-100 flex-col gap-3">
         <div className="hidden lg:block">
-          <ChartNoAxesCombined  size={"6rem"} strokeWidth={2.3} />
+          
         </div>
         <p className="font-bold font-serif text-4xl ">Accounting Management</p>
         <p className="font-medium hidden md:block">

@@ -3,8 +3,8 @@
 const Hero = () => {
   return (
     <div className="min-h-[100vh]">
-      <div className="relative h-72 md:h-[28rem] w-full bg-cover bg-center bg-[url('assets/hero.jpg')]">
-        <div className=" absolute w-full rounded-t-3xl inset-x-0 -bottom-1 object-bottom bg-white h-12 md:h-24"></div>
+      <div className="relative h-72 md:h-[33rem] w-full bg-cover bg-center bg-[url('assets/hero.jpg')]">
+        <div className=" absolute w-full rounded-t-2xl inset-x-0 -bottom-1 object-bottom bg-white h-12 md:h-24"></div>
       </div>
       <div className="w-full bg-white h-auto lg:px-36 md:px-20 flex flex-col gap-10 justify-center items-center">
         <h2 className="lg:max-text-7xl md:text-6xl text-4xl px-10 text-center font-serif font-medium">
