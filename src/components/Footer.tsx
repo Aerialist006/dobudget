@@ -32,7 +32,19 @@ const Footer = () => {
                 <FaSquareFacebook />
                 <FaLinkedin />
               </div>
-              <div>9641 Brown Street Cumming, GA 30040</div>
+              <div>
+                <p>9641 Brown Street Cumming, GA 30040</p>
+                <p>Tel. (413) 120-5467 | Fax. (413) 120-5460</p>
+                <div className="pt-2 flex gap-3 ">
+                  <p className="transition-all hover:text-emerald-400 underline hover:decoration-emerald-400 cursor-pointer">
+
+                    Terms of Service
+                  </p>
+                  <p className="transition-all hover:text-emerald-400 underline hover:decoration-emerald-400 cursor-pointer">
+                    Privacy Policy
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="flex flex-col gap-4">
               <h2 className="font-serif text-3xl">Services</h2>
@@ -46,7 +58,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex flex-col gap-4 md:hidden lg:flex">
-              <h2 className="font-serif text-3xl">Quick Links</h2>
+              <h2 className="font-serif text-3xl fontb">Quick Links</h2>
               <div>
                 <ul>Quick links</ul>
                 <ul>Quick links</ul>

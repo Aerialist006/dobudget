@@ -8,11 +8,11 @@ const Cards = () => {
           
         </div>
         <p className="font-bold font-serif text-4xl ">Accounting Management</p>
-        <p className="font-medium hidden md:block">
+        <p className=" hidden md:block">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          repudiandae eius, illum laudantium sequi corporis quibusdam{" "}
+          repudiandae eius, illum laudantium sequi corporis quibusdam
         </p>
-        <button className="bg-emerald-600 self-start p-3 rounded-lg font-semibold font-sans hover:bg-emerald-700 w-auto hover:text-emerald-200 transition-all text-emerald-200 ">
+        <button className="bg-emerald-700 self-start p-3 rounded-lg font-semibold font-sans hover:bg-emerald-800 w-auto hover:text-emerald-200 transition-all text-emerald-200 ">
           Learn More
         </button>
       </div>
