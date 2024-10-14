@@ -11,7 +11,7 @@ const Hero = () => {
           Build the agency you’ve always wanted — without worrying about the
           money part.
         </h2>
-        <h3 className="text-xl font-medium px-10 text-center ">
+        <h3 className="text-xl px-10 text-center ">
           Bookkeeping & Accounting services for small and medium businesses
         </h3>
         <div className="flex gap-5">
